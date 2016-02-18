@@ -14,23 +14,23 @@ Who:
 
 Title:
 
-	2d platformer
+	2D Platformer
 
 Description:
 
-	2d platform game developed in unity.
+	2D platform game developed in unity.
 
 Vision Statement:
 
-	Make a 2d platform game that is fun to play. 
+	Make a 2D platform game that is fun to play. 
 
 Motivation:
 
-	To get into a 2d game development.
+	To learn about 2D game development.
 
 Risks:
 	
-	Non programming assets.
+	Little to no experience with non programming assets.
 	No prior experience with working with people in the team.
 	This is a new working environment (Unity and C#)
 
@@ -46,17 +46,14 @@ Mitigation Strategy:
 Requirements:
 
 	User Requirements:
-		As a user I want to progress through levels so I can complete the game.
-		wall jumps
-		moving platforms // moving environments
-		enemies // hazards
-		deadly things
-		challenges
+		As a user I want to progress through levels so I can complete the game. (1)
+		As a user I want moving platforms so that jump timing provides an added challenge. (5)
+		As a user I want enemies to kill so that I can get satisfaction from defeating an enemy. (3) 
+		As a user I want a high level of challenge so that completing a level provides a sense of accomplishment. (8)
 	Functional Requirements:
-		As a user I want the game to run without any bugs.
-		Able to play it.
+		As a user I want the game to run without any major bugs so I don't have to worry about mid-game crashes (3)
 	Non-Functional Requirements:
-		Runs smothely High fps
+		As a user I want a game that runs smoothly at high FPS so I don't die due to latency issues. (5)
 		
 Methodology:
 
@@ -69,4 +66,4 @@ Project Tracking:
 
 Project Plan:
 
-	https://trello.com/b/Dy9qB5A9/game
+	http://imgur.com/aABhWhC
