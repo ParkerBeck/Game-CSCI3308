@@ -1,9 +1,17 @@
 fileFormatVersion: 2
 guid: 95496687681956f46b0d300e4c4bcc8b
-timeCreated: 1457213622
+timeCreated: 1457538120
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Player_Jump_Frames_0
+    21300002: Player_Jump_Frames_1
+    21300004: Player_Jump_Frames_2
+    21300006: Player_Jump_Frames_3
+    21300008: Player_Jump_Frames_4
+    21300010: Player_Jump_Frames_5
+    21300012: Player_Jump_Frames_6
+    21300014: Player_Jump_Frames_7
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,7 +38,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,7 +46,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +57,176 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Player_Jump_Frames_0
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 568
+        width: 224
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 116}
+        - {x: -57, y: 31}
+        - {x: -112, y: 5}
+        - {x: -112, y: -72}
+        - {x: -90, y: -116}
+        - {x: 35, y: -116}
+        - {x: 112, y: -33}
+        - {x: 112, y: 102}
+        - {x: 109, y: 116}
+    - name: Player_Jump_Frames_1
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 568
+        width: 224
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 83, y: 116}
+        - {x: 13, y: 116}
+        - {x: -112, y: -4}
+        - {x: -112, y: -42}
+        - {x: -107, y: -53}
+        - {x: -68, y: -109}
+        - {x: -66, y: -116}
+        - {x: 38, y: -116}
+        - {x: 112, y: -59}
+        - {x: 112, y: 87}
+        - {x: 98, y: 112}
+    - name: Player_Jump_Frames_2
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 568
+        width: 232
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 108, y: 108}
+        - {x: 3, y: 108}
+        - {x: -109, y: 7}
+        - {x: -116, y: -14}
+        - {x: -116, y: -44}
+        - {x: -108, y: -46}
+        - {x: -99, y: -47}
+        - {x: -89, y: -105}
+        - {x: -77, y: -108}
+        - {x: 23, y: -108}
+        - {x: 35, y: -98}
+        - {x: 116, y: -27}
+        - {x: 116, y: 67}
+    - name: Player_Jump_Frames_3
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 576
+        width: 240
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 98, y: 104}
+        - {x: -24, y: 104}
+        - {x: -120, y: 33}
+        - {x: -120, y: -90}
+        - {x: -112, y: -104}
+        - {x: 69, y: -104}
+        - {x: 120, y: -49}
+        - {x: 120, y: 86}
+        - {x: 106, y: 100}
+    - name: Player_Jump_Frames_4
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 328
+        width: 240
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 120, y: 58}
+        - {x: 106, y: 100}
+        - {x: 98, y: 104}
+        - {x: -21, y: 104}
+        - {x: -120, y: 24}
+        - {x: -120, y: -104}
+        - {x: 42, y: -104}
+        - {x: 54, y: -88}
+        - {x: 64, y: -53}
+        - {x: 120, y: -18}
+    - name: Player_Jump_Frames_5
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 328
+        width: 240
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 120, y: -23}
+        - {x: 120, y: 61}
+        - {x: 110, y: 104}
+        - {x: -24, y: 104}
+        - {x: -120, y: 33}
+        - {x: -120, y: -80}
+        - {x: -105, y: -104}
+        - {x: 30, y: -104}
+        - {x: 58, y: -76}
+        - {x: 41, y: -43}
+        - {x: 35, y: -39}
+    - name: Player_Jump_Frames_6
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 312
+        width: 232
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 108}
+        - {x: -109, y: 7}
+        - {x: -116, y: -13}
+        - {x: -116, y: -108}
+        - {x: 91, y: -108}
+        - {x: 116, y: -51}
+        - {x: 116, y: 67}
+        - {x: 108, y: 108}
+    - name: Player_Jump_Frames_7
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 304
+        width: 224
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 83, y: 116}
+        - {x: 13, y: 116}
+        - {x: -112, y: -4}
+        - {x: -112, y: -42}
+        - {x: -107, y: -53}
+        - {x: -90, y: -116}
+        - {x: 96, y: -116}
+        - {x: 112, y: -64}
+        - {x: 112, y: 102}
+        - {x: 98, y: 112}
     outline: []
   spritePackingTag: 
   userData: 
