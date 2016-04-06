@@ -19,10 +19,10 @@ public class CollectibleController : MonoBehaviour {
 
 
 		int playermask = 1 << 4; //set to whatever layer player is on
-		bool up = Physics2D.Raycast(transform.position, Vector2.up, collider.bounds.extents.y + .05f, playerMask);
-		bool down = Physics2D.Raycast(transform.position, Vector2.down, collider.bounds.extents.y + .05f, playerMask);
-		bool left = Physics2D.Raycast(transform.position, Vector2.left, collider.bounds.extents.y + .05f, playerMask);
-		bool right = Physics2D.Raycast(transform.position, Vector2.right, collider.bounds.extents.y + .05f, playerMask);
+		bool up = Physics2D.Raycast(transform.position, Vector2.up, GetComponent<Collider>().bounds.extents.y + .05f, playerMask);
+		bool down = Physics2D.Raycast(transform.position, Vector2.down, GetComponent<Collider>().bounds.extents.y + .05f, playerMask);
+		bool left = Physics2D.Raycast(transform.position, Vector2.left, GetComponent<Collider>().bounds.extents.y + .05f, playerMask);
+		bool right = Physics2D.Raycast(transform.position, Vector2.right, GetComponent<Collider>().bounds.extents.y + .05f, playerMask);
 		if (up || down || left || right) /// if player collides with collectible
 		{
 			collided = true;
