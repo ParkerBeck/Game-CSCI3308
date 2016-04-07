@@ -72,3 +72,14 @@
 - Test Pass? No.
 - Additional Notes: Need to re-look at code to ensure that hits from the side of an enemy do not kill the enemy.
 
+
+****************Automated Testing*****************************
+For our automated testing we used Unity Test Tools which can be found here:
+https://www.assetstore.unity3d.com/en/#!/content/13802
+
+However due to the nature of our project and inexperience at coding for Unity, in most cases automated testing
+was infeasible. Had we more expertise at Unity we could refactor the code to make automated testing a more reasonable approach
+but in our case user acceptance tests are the most feasible option. 
+
+Screenshot of the Tests Ran: 
+![Alt text](TestsSS.png?raw=true "Test Screenshot")

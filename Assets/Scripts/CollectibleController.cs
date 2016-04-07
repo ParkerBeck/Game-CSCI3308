@@ -18,7 +18,7 @@ public class CollectibleController : MonoBehaviour {
 	void Update () {
 
 
-		int playermask = 1 << 4; //set to whatever layer player is on
+		int playerMask = 1 << 4; //set to whatever layer player is on
 		bool up = Physics2D.Raycast(transform.position, Vector2.up, GetComponent<Collider>().bounds.extents.y + .05f, playerMask);
 		bool down = Physics2D.Raycast(transform.position, Vector2.down, GetComponent<Collider>().bounds.extents.y + .05f, playerMask);
 		bool left = Physics2D.Raycast(transform.position, Vector2.left, GetComponent<Collider>().bounds.extents.y + .05f, playerMask);

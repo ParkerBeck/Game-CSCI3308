@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{3069B329-2B43-BA65-CD28-E409844D83F5}") = "Game-CSCI3308", "Assembly-CSharp.csproj", "{82E91022-90CB-7BC8-1AC4-04E68C3EE68B}"
 EndProject
+Project("{3069B329-2B43-BA65-CD28-E409844D83F5}") = "Game-CSCI3308", "Assembly-CSharp-Editor.csproj", "{071DBEAC-5F94-ABC1-3925-CAFDEA2463D5}"
+EndProject
+Project("{3069B329-2B43-BA65-CD28-E409844D83F5}") = "Game-CSCI3308", "Assembly-UnityScript.unityproj", "{CC8DEC65-3F91-E026-E4F2-69051306119C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{82E91022-90CB-7BC8-1AC4-04E68C3EE68B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82E91022-90CB-7BC8-1AC4-04E68C3EE68B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82E91022-90CB-7BC8-1AC4-04E68C3EE68B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{071DBEAC-5F94-ABC1-3925-CAFDEA2463D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{071DBEAC-5F94-ABC1-3925-CAFDEA2463D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{071DBEAC-5F94-ABC1-3925-CAFDEA2463D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{071DBEAC-5F94-ABC1-3925-CAFDEA2463D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC8DEC65-3F91-E026-E4F2-69051306119C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC8DEC65-3F91-E026-E4F2-69051306119C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC8DEC65-3F91-E026-E4F2-69051306119C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC8DEC65-3F91-E026-E4F2-69051306119C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
