@@ -1,9 +1,12 @@
 fileFormatVersion: 2
-guid: 4d45753910d02bc4cbdae4d0f9160132
-timeCreated: 1459977265
+guid: 0e4d529dc413e4a45923c0b4994008bb
+timeCreated: 1457715432
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: enemy1Transparent_0
+    21300002: enemy1Transparent_1
+    21300004: enemy1Transparent_2
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,7 +41,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +52,70 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: enemy1Transparent_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 232
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -116, y: 40}
+        - {x: -116, y: -28}
+        - {x: -101, y: -40}
+        - {x: 97, y: -40}
+        - {x: 116, y: -23}
+        - {x: 116, y: 40}
+    - name: enemy1Transparent_1
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 96
+        width: 224
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 112, y: 27}
+        - {x: 110, y: 34}
+        - {x: 56, y: 44}
+        - {x: -40, y: 44}
+        - {x: -91, y: 36}
+        - {x: -111, y: 20}
+        - {x: -112, y: 13}
+        - {x: -112, y: -26}
+        - {x: -88, y: -38}
+        - {x: -61, y: -44}
+        - {x: -27, y: -44}
+        - {x: -7, y: -39}
+        - {x: 90, y: -41}
+        - {x: 112, y: -26}
+    - name: enemy1Transparent_2
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 96
+        width: 232
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -77, y: 40}
+        - {x: -116, y: 19}
+        - {x: -116, y: -15}
+        - {x: -103, y: -30}
+        - {x: -87, y: -40}
+        - {x: 113, y: -40}
+        - {x: 116, y: -39}
+        - {x: 116, y: 31}
+        - {x: 112, y: 36}
+        - {x: 99, y: 40}
     outline: []
   spritePackingTag: 
   userData: 

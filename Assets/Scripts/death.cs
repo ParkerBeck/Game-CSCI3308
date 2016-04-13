@@ -2,12 +2,12 @@
 using System.Collections;
 using UnityEngine.SceneManagement;
 public class death : MonoBehaviour {
-	//private Rigidbody2D rb2d;
 	// Use this for initialization
 	private Scene scene;
+	private Rigidbody2D rb2d;
 	void Start () {
 		scene = SceneManager.GetActiveScene();
-		//rb2d = gameObject.GetComponent<Rigidbody2D>();
+		rb2d = gameObject.GetComponent<Rigidbody2D>();
 	}
 	
 	// Update is called once per frame
@@ -15,9 +15,20 @@ public class death : MonoBehaviour {
 		Vector3 playerPos = transform.position;
 		if(playerPos.y < -2.5) {
 			//rb2d.AddForce (Vector2.up * 100);
-
-			SceneManager.LoadScene(scene.name);
+			Destroy(gameObject,1.0f);
+			SceneManager.LoadScene("StartMenu");
 			//Application.LoadLevel(Application.loadedLevel);
+		}
+	}
+
+	void OnCollisionEnter2D(Collision2D col){
+		if (col.gameObject.tag == "Enemy" && (transform.position.y - col.gameObject.transform.position.y) < 0.25) {
+			//Destroy (gameObject, 1.0f);
+			//SceneManager.LoadScene("StartMenu");
+		}
+
+		if (col.gameObject.tag == "Enemy") {
+			rb2d.AddForce ((Vector2.up * 3) * 60);
 		}
 	}
 }
