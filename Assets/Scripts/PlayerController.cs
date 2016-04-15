@@ -4,9 +4,12 @@ using System.Collections;
 public class PlayerController : MonoBehaviour
 {
 
-    public float speed;
+    public float movementPower;
     public float jumpPower;
+    public float airJumpPower;
     public int jumpCount;
+
+    public float maxSpeed;
 
     int jumpsLeft;
     bool facingRight = true;
@@ -28,7 +31,7 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         float moveHorziontal = Input.GetAxis("Horizontal");
-        rb2d.AddForce((Vector2.right * speed) * moveHorziontal);
+        rb2d.AddForce(moveHorziontal * movementPower * Vector2.right, ForceMode2D.Impulse);
         anim.SetBool("Movin", moveHorziontal != 0);
 
         // this code is so we can face different directions
@@ -53,9 +56,13 @@ public class PlayerController : MonoBehaviour
         }
         else if (jumpsLeft > 0 && Input.GetKeyDown(KeyCode.UpArrow))
         {
-            jump();
+            jump(true);
         }
 
+        if (rb2d.velocity.x > maxSpeed)
+        {
+            rb2d.velocity = new Vector2(maxSpeed, rb2d.velocity.y);
+        }
     }
 
     void flip()
@@ -66,9 +73,16 @@ public class PlayerController : MonoBehaviour
         transform.localScale = theScale;
     }
 
-    void jump()
+    void jump(bool inAir = false)
     {
-        rb2d.AddForce((Vector2.up * jumpPower));
+        if (!inAir)
+        {
+            rb2d.AddForce(Vector2.up * jumpPower);
+        }
+        else
+        {
+            rb2d.AddForce(Vector2.up * airJumpPower);
+        }
         jumpsLeft--;
     }
 
