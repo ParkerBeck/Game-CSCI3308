@@ -17,7 +17,7 @@ public class enemyScript : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 		plyrPos = GameObject.FindGameObjectWithTag ("Player").transform.position;
 
 		if(jmpTimer < 60.0f)

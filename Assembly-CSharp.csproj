@@ -47,13 +47,20 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\BasicEnemyController.cs" />
      <Compile Include="Assets\Scripts\CollectibleController.cs" />
+     <Compile Include="Assets\Scripts\Collision.cs" />
+     <Compile Include="Assets\Scripts\EscMenu.cs" />
      <Compile Include="Assets\Scripts\Escape.cs" />
      <Compile Include="Assets\Scripts\Game_Project_Player_Move.cs" />
      <Compile Include="Assets\Scripts\LevelCompletion.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Rotator.cs" />
      <Compile Include="Assets\Scripts\StartMenu.cs" />
+     <Compile Include="Assets\Scripts\camera.cs" />
      <Compile Include="Assets\Scripts\death.cs" />
+     <Compile Include="Assets\Scripts\destPlat.cs" />
+     <Compile Include="Assets\Scripts\enemyScript.cs" />
+     <Compile Include="Assets\Scripts\score.cs" />
+     <Compile Include="Assets\Scripts\spawnPlat.cs" />
      <Compile Include="Assets\UnityTestTools\Assertions\AssertionComponent.cs" />
      <Compile Include="Assets\UnityTestTools\Assertions\AssertionException.cs" />
      <Compile Include="Assets\UnityTestTools\Assertions\Assertions.cs" />
