@@ -4,7 +4,13 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - dumb
+  - Enemy
+  - Background
+  - Score
+  - Gameover
+  - openClose
+  - Star
+  - Ter
   layers:
   - Default
   - TransparentFX
@@ -15,7 +21,7 @@ TagManager:
   - 
   - 
   - Player
-  - Terrain
+  - Platform
   - 
   - 
   - 

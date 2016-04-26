@@ -14,6 +14,7 @@ public class StartMenu : MonoBehaviour {
 		startText = startText.GetComponent<Button> ();
 		quitText = quitText.GetComponent<Button> ();
 		quitMenu.enabled = false;
+		Time.timeScale = 1;
 	}
 
 	public void QuitPress(){
@@ -33,7 +34,7 @@ public class StartMenu : MonoBehaviour {
 	}
 
 	public void StartGame(){
-
+		PlayerPrefs.DeleteAll ();
 		SceneManager.LoadScene ("Level1");
 
 	}

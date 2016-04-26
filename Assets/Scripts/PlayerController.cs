@@ -8,8 +8,9 @@ public class PlayerController : MonoBehaviour
     public float jumpPower;
     public float airJumpPower;
     public int jumpCount;
-
+	private bool onGround; 
     public float maxSpeed;
+	private GameObject Camera;
 
     int jumpsLeft;
     bool facingRight = true;
@@ -25,6 +26,7 @@ public class PlayerController : MonoBehaviour
         //transform = gameObject.GetComponent<Transform> ();
         collider = gameObject.GetComponent<PolygonCollider2D>();
         anim = GetComponent<Animator>();
+		Camera = GameObject.FindGameObjectWithTag ("MainCamera");
     }
 
     // Update is called once per frame
@@ -44,7 +46,7 @@ public class PlayerController : MonoBehaviour
             flip();
         }
 
-        if (onGround())
+		if (onGround)
         {
             jumpsLeft = jumpCount;
         }
@@ -59,10 +61,20 @@ public class PlayerController : MonoBehaviour
             jump(true);
         }
 
-        if (rb2d.velocity.x > maxSpeed)
+		if (rb2d.velocity.x > maxSpeed)
         {
             rb2d.velocity = new Vector2(maxSpeed, rb2d.velocity.y);
         }
+
+		if (rb2d.velocity.x < -maxSpeed)
+		{
+			rb2d.velocity = new Vector2(-maxSpeed, rb2d.velocity.y);
+		}
+		if (transform.position.x < (Camera.transform.position.x - 5)) {
+			transform.position = new Vector3 (Camera.transform.position.x - 5, transform.position.y, transform.position.z);
+			rb2d.velocity = new Vector2 (0, rb2d.velocity.y);
+		}	
+
     }
 
     void flip()
@@ -77,20 +89,25 @@ public class PlayerController : MonoBehaviour
     {
         if (!inAir)
         {
-            rb2d.AddForce(Vector2.up * jumpPower);
+			rb2d.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
         }
         else
         {
-            rb2d.AddForce(Vector2.up * airJumpPower);
+			rb2d.AddForce(Vector2.up * airJumpPower, ForceMode2D.Impulse);
         }
         jumpsLeft--;
     }
+		
+	void OnCollisionEnter2D(Collision2D col){
+		if (col.gameObject.tag == "Ter") {
+			onGround = true;
+		}
+		print (col.gameObject.tag);
+	}
 
-    bool onGround()
-    {
-        //Terain is on 9th layer
-        int terrainMask = 1 << 9;
-        //Returns true if the player has terrain under
-        return Physics2D.Raycast(transform.position, Vector2.down, collider.bounds.extents.y + .05f, terrainMask);
-    }
+	void OnCollisionExit2D(Collision2D col){
+		if (col.gameObject.tag == "Ter") {
+			onGround = false;
+		}
+	}
 }

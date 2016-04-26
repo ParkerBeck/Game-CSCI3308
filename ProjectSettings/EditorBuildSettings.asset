@@ -5,11 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/StartMenu.unity
-  - enabled: 0
-    path: Assets/levels_old_do_not_use/NotLevel1.unity
   - enabled: 1
-    path: Assets/StartMenu.unity
+    path: Assets/levels/StartMenu.unity
   - enabled: 1
-    path: Assets/Level1.unity
+    path: Assets/levels/Level1.unity

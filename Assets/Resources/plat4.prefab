@@ -12,7 +12,7 @@ GameObject:
   - 61: {fileID: 6152262}
   m_Layer: 0
   m_Name: Sml
-  m_TagString: Untagged
+  m_TagString: Ter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46,7 +46,7 @@ GameObject:
   - 61: {fileID: 6143836}
   m_Layer: 0
   m_Name: Sml
-  m_TagString: Untagged
+  m_TagString: Ter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63,7 +63,7 @@ GameObject:
   - 61: {fileID: 6127576}
   m_Layer: 0
   m_Name: Sml (1)
-  m_TagString: Untagged
+  m_TagString: Ter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80,7 +80,7 @@ GameObject:
   - 61: {fileID: 6163280}
   m_Layer: 0
   m_Name: Sml
-  m_TagString: Untagged
+  m_TagString: Ter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -347,7 +347,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1968871687
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300062, guid: 9687b635c9d45ae47bad9265629309cc, type: 3}
+  m_Sprite: {fileID: 21300062, guid: 68d529eac3e0dbd4fbc933d0a5ecb324, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -377,7 +377,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1968871687
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300062, guid: 9687b635c9d45ae47bad9265629309cc, type: 3}
+  m_Sprite: {fileID: 21300062, guid: 68d529eac3e0dbd4fbc933d0a5ecb324, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -437,7 +437,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1968871687
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300062, guid: 9687b635c9d45ae47bad9265629309cc, type: 3}
+  m_Sprite: {fileID: 21300062, guid: 68d529eac3e0dbd4fbc933d0a5ecb324, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -497,7 +497,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1968871687
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300062, guid: 9687b635c9d45ae47bad9265629309cc, type: 3}
+  m_Sprite: {fileID: 21300062, guid: 68d529eac3e0dbd4fbc933d0a5ecb324, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

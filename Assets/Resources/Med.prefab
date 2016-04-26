@@ -10,9 +10,10 @@ GameObject:
   - 4: {fileID: 456460}
   - 212: {fileID: 21215260}
   - 61: {fileID: 6194388}
+  - 114: {fileID: 11478344}
   m_Layer: 0
   m_Name: Med
-  m_TagString: Untagged
+  m_TagString: Ter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43,6 +44,17 @@ BoxCollider2D:
   m_Offset: {x: 0, y: -0.22}
   serializedVersion: 2
   m_Size: {x: 3.0800002, y: 0.3}
+--- !u!114 &11478344
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 190766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06f5d4db3b5cb014c93e875cdbecd45c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &21215260
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -69,7 +81,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1968871687
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300040, guid: 9687b635c9d45ae47bad9265629309cc, type: 3}
+  m_Sprite: {fileID: 21300040, guid: 68d529eac3e0dbd4fbc933d0a5ecb324, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

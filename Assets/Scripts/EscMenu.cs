@@ -33,12 +33,7 @@ public class EscMenu : MonoBehaviour {
 		SceneManager.LoadScene ("StartMenu");
 
 	}
-
-	public void ClosePress() {
-
-		escPress ();
-
-	}
+		
 
 
 	public void escPress (){

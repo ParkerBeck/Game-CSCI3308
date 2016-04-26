@@ -25,9 +25,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 487748}
   - 212: {fileID: 21274188}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Med
-  m_TagString: Untagged
+  m_TagString: Ter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44,7 +44,7 @@ GameObject:
   - 114: {fileID: 11458754}
   m_Layer: 0
   m_Name: plat1
-  m_TagString: Untagged
+  m_TagString: Ter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58,9 +58,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 459124}
   - 212: {fileID: 21294598}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Lrg
-  m_TagString: Untagged
+  m_TagString: Ter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -134,9 +134,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 454138}
   - 212: {fileID: 21249944}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sml
-  m_TagString: Untagged
+  m_TagString: Ter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -619,7 +619,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1968871687
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300062, guid: 9687b635c9d45ae47bad9265629309cc, type: 3}
+  m_Sprite: {fileID: 21300062, guid: 68d529eac3e0dbd4fbc933d0a5ecb324, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -709,7 +709,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1968871687
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300040, guid: 9687b635c9d45ae47bad9265629309cc, type: 3}
+  m_Sprite: {fileID: 21300040, guid: 68d529eac3e0dbd4fbc933d0a5ecb324, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -739,7 +739,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1968871687
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300092, guid: 9687b635c9d45ae47bad9265629309cc, type: 3}
+  m_Sprite: {fileID: 21300092, guid: 68d529eac3e0dbd4fbc933d0a5ecb324, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
