@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
+///Currently unused
 public class EnemyDeath : MonoBehaviour {
 
     void OnTriggerEnter2D (Collider2D other)

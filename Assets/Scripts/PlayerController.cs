@@ -3,12 +3,16 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
-
+	///Speed of movement
     public float movementPower;
+	///Power of first jump
     public float jumpPower;
+	///Power of jumps while in the air
     public float airJumpPower;
+	///Number of jumps before landing allowed
     public int jumpCount;
 	private bool onGround; 
+	///Max horizontal speed
     public float maxSpeed;
 	private GameObject Camera;
 
@@ -85,6 +89,7 @@ public class PlayerController : MonoBehaviour
         transform.localScale = theScale;
     }
 
+	///Makes the player jump, if inAir = true, then make the player jump with airJumpPower instead
     void jump(bool inAir = false)
     {
         if (!inAir)
@@ -98,6 +103,7 @@ public class PlayerController : MonoBehaviour
         jumpsLeft--;
     }
 		
+	///Handles on ground collision checks to know when to reset jumps	
 	void OnCollisionEnter2D(Collision2D col){
 		if (col.gameObject.tag == "Ter") {
 			onGround = true;

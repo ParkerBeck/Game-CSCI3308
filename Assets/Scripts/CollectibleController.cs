@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+///Currently unused
 public class CollectibleController : MonoBehaviour {
 
 	private int wtr;

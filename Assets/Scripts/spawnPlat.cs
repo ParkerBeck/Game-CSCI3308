@@ -24,7 +24,7 @@ public class spawnPlat : MonoBehaviour {
 		//newObj.transform.position = new Vector3(newObj.transform.position.x + 10, newObj.transform.position.y, newObj.transform.position.z)
 	}
 	
-	// Update is called once per frame
+	///Generates all the platforms
 	void Update () {
 		if (platCount < 20 && totPlat < levelAugment) {
 			randNum = Random.Range (1, 4);

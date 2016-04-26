@@ -7,7 +7,7 @@ public class death : MonoBehaviour {
 		rb2d = gameObject.GetComponent<Rigidbody2D>();
 	}
 	
-	// Update is called once per frame
+	///Player dies if they fall off the map
 	void Update () {
 		Vector3 playerPos = transform.position;
 		if(playerPos.y < -2.5) {
@@ -24,6 +24,7 @@ public class death : MonoBehaviour {
 		}
 	}
 
+	///Kill the player
 	void kill(){
 		GameObject.FindGameObjectWithTag("Score").SendMessage("Death");
 	}

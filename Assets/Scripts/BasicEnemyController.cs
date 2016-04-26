@@ -12,7 +12,7 @@ public class BasicEnemyController : MobileObject {
 	// Use this for initialization
 	private Rigidbody2D rb2d;
 	Animator BasicEnemyAnim;
-	//the 
+	///Direction enemy should move
 	private int UpDown;
 	private int MoveCount;
 	void Start () {

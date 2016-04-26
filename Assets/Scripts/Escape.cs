@@ -9,7 +9,7 @@ public class Escape : MonoBehaviour {
 	
 	}
 	
-	// Update is called once per frame
+	///Exits to menu on key press "Escape"
 	void Update () {
         if (Input.GetKeyDown(KeyCode.Escape))
             SceneManager.LoadScene("StartMenu");

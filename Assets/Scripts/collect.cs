@@ -4,6 +4,7 @@ using System.Collections;
 public class collect : MonoBehaviour {
 	private Rigidbody2D rb2d;
 	private float pos;
+	///Goes to next level on collision
 	void OnCollisionEnter2D(Collision2D col){
 		if (col.gameObject.tag == "Player") {
 			GameObject.FindGameObjectWithTag ("Score").SendMessage ("NextLevel");
@@ -15,6 +16,8 @@ public class collect : MonoBehaviour {
 		rb2d = gameObject.GetComponent<Rigidbody2D>();
 	}
 
+	
+	//Moves up and down
 	void Update(){
 		if (transform.position.y <= pos) {
 			rb2d.AddForce ((Vector2.up * 50));

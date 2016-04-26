@@ -4,6 +4,7 @@ using System.Collections;
 public class enemyScript : MonoBehaviour {
 	
 	private Rigidbody2D rb2d;
+	///Speed of the enemy
 	public float enemySpeed;
 	private float jmpTimer;
 	private Vector3 plyrPos;
@@ -16,7 +17,8 @@ public class enemyScript : MonoBehaviour {
 		rb2d.gravityScale = 2f;
 	}
 	
-	// Update is called once per frame
+	///Enemy should travel towards the player.
+	///This has to be FixedUpdate, on regular update, pauses break the enemies
 	void FixedUpdate () {
 		plyrPos = GameObject.FindGameObjectWithTag ("Player").transform.position;
 
@@ -49,7 +51,7 @@ public class enemyScript : MonoBehaviour {
 	
 	}
 
-
+	///Change the direction of the enemy, for animation purposes
 	void flip()
 	{
 		facingRight = !facingRight;

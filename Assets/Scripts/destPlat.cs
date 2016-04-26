@@ -9,7 +9,7 @@ public class destPlat : MonoBehaviour {
 		camPos = GameObject.FindGameObjectWithTag("MainCamera");
 	}
 	
-	// Update is called once per frame
+	///Destroys platforms that are off screen
 	void Update () {
 		if ((camPos.transform.position.x - transform.position.x) > 10) {
 			camPos.SendMessage ("destroyedPlat");

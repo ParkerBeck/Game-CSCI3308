@@ -2,19 +2,19 @@
 using System.Collections;
 
 public class camera : MonoBehaviour {
-
-	// Use this for initialization
-	private GameObject player;
-	private float playerLoc;
+	
+	///Object the camera should follow
+	private GameObject trackingObject;
+	
 	void Start () {
-		player = GameObject.FindGameObjectWithTag ("Player");
+		trackingObject = GameObject.FindGameObjectWithTag ("Player");
 	}
 	
-	// Update is called once per frame
+	///Moves the camera to follow the player.
 	void Update () {
-		playerLoc = player.transform.position.x;
-		if (playerLoc > transform.position.x) {
-			this.transform.position = new Vector3 (playerLoc, this.transform.position.y, this.transform.position.z);
+		float location = trackingObject.transform.position.x;
+		if (location > transform.position.x) {
+			this.transform.position = new Vector3 (location, this.transform.position.y, this.transform.position.z);
 
 		}
 	}

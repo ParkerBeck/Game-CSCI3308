@@ -3,15 +3,16 @@ using System.Collections;
 
 //jake made this
 public abstract class MobileObject : MonoBehaviour { 
-	//can make this a class for all objects that move, or just have each object copy and paste the relevant code
-	//into their scripts
+	///Speed of movement
 	public float movetime = 0.1f; //can change this
-	public LayerMask blockingLayer; //for interacting with certain layers which we don't have
+	///Layers the object should not be able to travel on
+	public LayerMask blockingLayer; 
 	
 	private BoxCollider2D boxCollider;
 	private Rigidbody2D rb2D; 
 	private float inverseMoveTime;
 
+	///Gets components from the game object for later calculations
 	protected virtual void Start () 
 	{
 		boxCollider = GetComponent<BoxCollider2D> ();
@@ -20,7 +21,7 @@ public abstract class MobileObject : MonoBehaviour {
 		
 	}
 
-	//the most important function, does the raycasting (draws a line to new position and sees if anything is there)
+	///Moves the object, raycasting if to make sure it can traverse
 	protected bool Move (float xDir, float yDir, out RaycastHit2D hit)
 	{
 		Vector2 start = transform.position;
@@ -37,7 +38,7 @@ public abstract class MobileObject : MonoBehaviour {
 		return false;
 	}
 
-	//makes the pixel movement happen in a non jerky fashion
+	///Keeps the pixel movement non jerky
 	protected IEnumerator SmoothMovement (Vector3 end)
 	{
 		
