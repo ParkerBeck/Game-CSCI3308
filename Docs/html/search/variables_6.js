@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['levelname',['LevelName',['../class_level_completion.html#a076b213a6200d47febd4ab42ea0b516c',1,'LevelCompletion']]]
+  ['updown',['UpDown',['../class_basic_enemy_controller.html#a3b50371d6e203ee1e2f4e486719e47a0',1,'BasicEnemyController']]]
 ];

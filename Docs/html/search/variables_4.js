@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['endleveltext',['endLevelText',['../class_level_completion.html#a3e9c9768b9197b2d21f4ad2932682f0e',1,'LevelCompletion']]],
-  ['enemyspeed',['enemySpeed',['../classenemy_script.html#ac55d3661511a39603ba8a9eb93cec11c',1,'enemyScript']]],
-  ['escmenu',['escMenu',['../class_esc_menu.html#a832c201f32537e35657bb530ad64e661',1,'EscMenu']]]
+  ['maxspeed',['maxSpeed',['../class_player_controller.html#aff8eb92a976293c031846b039d90913f',1,'PlayerController']]],
+  ['movementpower',['movementPower',['../class_player_controller.html#a5c1fd7263eb20b34d5c44210d5047960',1,'PlayerController']]],
+  ['movetime',['movetime',['../class_mobile_object.html#aaef2233dd5d6d9d1f3b11cd32fa41a75',1,'MobileObject']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['move',['Move',['../class_mobile_object.html#ad937655cabc2349003d1378a250c562a',1,'MobileObject']]]
+  ['jump',['jump',['../class_player_controller.html#a3f53ba2784ba3a96d6f9bad068561e2d',1,'PlayerController']]]
 ];

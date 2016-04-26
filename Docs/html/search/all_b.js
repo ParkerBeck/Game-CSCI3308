@@ -1,9 +1,5 @@
 var searchData=
 [
-  ['qdtpress',['QDTPress',['../class_esc_menu.html#ab5c3049ea85e5aa6e8e79dae41c363c8',1,'EscMenu']]],
-  ['qmmpress',['QMMPress',['../class_esc_menu.html#acf8ff5cf54d5953f75620c7a40c06fd6',1,'EscMenu.QMMPress()'],['../classgameoverbutton.html#a814a342aff479e42f4e1ec094c14212c',1,'gameoverbutton.QMMPress()']]],
-  ['quit',['Quit',['../class_start_menu.html#a8a5be9f549568fb16ee34042fc71f7cb',1,'StartMenu']]],
-  ['quitmenu',['quitMenu',['../class_start_menu.html#a773f4a9d6aeccc2cb7403cc1728a0999',1,'StartMenu']]],
-  ['quitpress',['QuitPress',['../class_start_menu.html#a226fcd6187d11f2f66b9beea5676fe7e',1,'StartMenu']]],
-  ['quittext',['quitText',['../class_start_menu.html#a1a9c7cf396580f5c031b415311e7f2bc',1,'StartMenu']]]
+  ['oncollisionenter2d',['OnCollisionEnter2D',['../classcollect.html#a0eb00da56cee07f48bc0f2cb15f17250',1,'collect.OnCollisionEnter2D()'],['../class_collision.html#a280c20681b7596db69ab04238882a0f5',1,'Collision.OnCollisionEnter2D()'],['../class_player_controller.html#a69b584daedd58527eb75a0390a785014',1,'PlayerController.OnCollisionEnter2D()']]],
+  ['oncollisionstay2d',['OnCollisionStay2d',['../class_collision.html#a7f729abe5605600a87b1d6b8b99ec268',1,'Collision']]]
 ];

@@ -41,7 +41,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
-      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -86,6 +85,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="classenemy_script-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">enemyScript Class Reference</div>  </div>
@@ -102,32 +102,55 @@ Inheritance diagram for enemyScript:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ac55d3661511a39603ba8a9eb93cec11c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classenemy_script.html#ac55d3661511a39603ba8a9eb93cec11c">enemySpeed</a></td></tr>
-<tr class="memdesc:ac55d3661511a39603ba8a9eb93cec11c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Speed of the enemy.  <a href="#ac55d3661511a39603ba8a9eb93cec11c">More...</a><br /></td></tr>
+<tr class="memitem:ac55d3661511a39603ba8a9eb93cec11c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac55d3661511a39603ba8a9eb93cec11c"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classenemy_script.html#ac55d3661511a39603ba8a9eb93cec11c">enemySpeed</a></td></tr>
+<tr class="memdesc:ac55d3661511a39603ba8a9eb93cec11c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Speed of the enemy. <br /></td></tr>
 <tr class="separator:ac55d3661511a39603ba8a9eb93cec11c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a4e24123e0e5086fed63f8532da37d3ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classenemy_script.html#a4e24123e0e5086fed63f8532da37d3ca">FixedUpdate</a> ()</td></tr>
+<tr class="memdesc:a4e24123e0e5086fed63f8532da37d3ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enemy should travel towards the player.  <a href="#a4e24123e0e5086fed63f8532da37d3ca">More...</a><br /></td></tr>
+<tr class="separator:a4e24123e0e5086fed63f8532da37d3ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a804b940b54e33e9bf759172b4fdf9aa9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a804b940b54e33e9bf759172b4fdf9aa9"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classenemy_script.html#a804b940b54e33e9bf759172b4fdf9aa9">flip</a> ()</td></tr>
+<tr class="memdesc:a804b940b54e33e9bf759172b4fdf9aa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the direction of the enemy, for animation purposes. <br /></td></tr>
+<tr class="separator:a804b940b54e33e9bf759172b4fdf9aa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="ac55d3661511a39603ba8a9eb93cec11c"></a>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a4e24123e0e5086fed63f8532da37d3ca"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float enemyScript.enemySpeed</td>
+          <td class="memname">void enemyScript.FixedUpdate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Speed of the enemy. </p>
+<p>Enemy should travel towards the player. </p>
+<p>This has to be FixedUpdate, on regular update, pauses break the enemies </p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>C:/Users/pbeck_000/Desktop/Gameee/Game-CSCI3308/Assets/Scripts/<a class="el" href="enemy_script_8cs.html">enemyScript.cs</a></li>
+<li>C:/Users/pbeck_000/Desktop/Gameee/Game-CSCI3308/Assets/Scripts/enemyScript.cs</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 26 2016 12:48:30 for Savannah Run by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Apr 26 2016 12:51:07 for Savannah Run by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['smoothmovement',['SmoothMovement',['../class_mobile_object.html#a2a3d16fcc0d83199932052004dabf156',1,'MobileObject']]],
-  ['start',['Start',['../class_mobile_object.html#a1f82e9e291ee1b0fd7a9e50dac367f46',1,'MobileObject']]],
-  ['startgame',['StartGame',['../class_start_menu.html#ae1f999c92738597bbb1d8c43c17fe9c8',1,'StartMenu']]]
+  ['oncollisionenter2d',['OnCollisionEnter2D',['../classcollect.html#a0eb00da56cee07f48bc0f2cb15f17250',1,'collect.OnCollisionEnter2D()'],['../class_collision.html#a280c20681b7596db69ab04238882a0f5',1,'Collision.OnCollisionEnter2D()'],['../class_player_controller.html#a69b584daedd58527eb75a0390a785014',1,'PlayerController.OnCollisionEnter2D()']]],
+  ['oncollisionstay2d',['OnCollisionStay2d',['../class_collision.html#a7f729abe5605600a87b1d6b8b99ec268',1,'Collision']]]
 ];
