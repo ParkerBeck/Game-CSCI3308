@@ -6,16 +6,16 @@ public class EnemyDeath : MonoBehaviour {
     void OnTriggerEnter2D (Collider2D other)
     {
         if (other.tag == "Player")
-        {
-          if(other.getXComponent > gameObject.getXCompnent && other.getYComponent == gameObject.getYComponent){
+		{
+			//if(other.getXComponent() > gameObject.getXComponent && other.getYComponent == gameObject.getYComponent){
           
-            other.gameObject.SetActive(false);
-          }
+           // other.gameObject.SetActive(false);
+          //}
         }
 
         if (other.tag == "BackScene")
         {
-            other.gameObject.SetACtive(true);
+            other.gameObject.SetActive(true);
         }
         
         

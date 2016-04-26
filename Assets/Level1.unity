@@ -375,6 +375,26 @@ Prefab:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11455984, guid: ebd307fd4d5b763469c76bfe8f430ea6, type: 2}
+      propertyPath: movementPower
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455984, guid: ebd307fd4d5b763469c76bfe8f430ea6, type: 2}
+      propertyPath: jumpPower
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455984, guid: ebd307fd4d5b763469c76bfe8f430ea6, type: 2}
+      propertyPath: airJumpPower
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455984, guid: ebd307fd4d5b763469c76bfe8f430ea6, type: 2}
+      propertyPath: jumpCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11455984, guid: ebd307fd4d5b763469c76bfe8f430ea6, type: 2}
+      propertyPath: maxSpeed
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ebd307fd4d5b763469c76bfe8f430ea6, type: 2}
   m_IsPrefabParent: 0
